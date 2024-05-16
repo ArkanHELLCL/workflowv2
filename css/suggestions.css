@@ -1,0 +1,24 @@
+.suggestions {
+  width: 100%;
+  padding: 7px;
+  text-align: left;    
+}
+
+.suggestions ~ i.fa-search{
+  color: rgba(0,0,0,0.87);
+  position: absolute;
+  right: 2rem;
+  top: .9rem;
+}
+
+.suggestions ~ i.fa-search.active{
+  color: #4285f4;
+  scale: 1.2;
+}
+
+.ui-widget.ui-widget-content {
+  max-height: 15rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 5000;
+}
